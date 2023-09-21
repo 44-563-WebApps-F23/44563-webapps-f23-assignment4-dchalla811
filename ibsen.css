@@ -1,0 +1,60 @@
+.speech {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+.direction {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    color: black;
+    background-color: lightgray;
+
+}
+.direction:hover {
+    background-color: gray;
+    color: white;
+
+}
+.helmer {
+    color: blue;
+
+}
+.nora {
+    color: red;
+
+}
+.helmer:hover,
+.nora:hover
+{
+
+  text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.5); /* Apply shadow with a red tint */
+    border: 2px solid purple; /* Apply a purple border */
+
+}
+.morten-kiil {
+
+    color: blueviolet;
+
+}
+.table {
+
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.table th, .table td {
+
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: left;
+}
+.table th {
+
+    background-color: lightgray;
+
+  }
+.table tbody tr:nth-child(even) {
+
+    background-color: #f9f9f9;
+
+  }
